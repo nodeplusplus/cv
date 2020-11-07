@@ -107,7 +107,7 @@ Finally, there is where I can show off about my programming knowledeges. You'll 
 - PHP
 - VueJS
 
-**Projects**
+**Projects:**
 
 - [Amazon Seller Toolbox](https://amzsellertoolbox.com/index.html)
 - [Hilton - Sertahospitality](https://hilton.sertahospitality.com/index.html)
@@ -125,7 +125,7 @@ Finally, there is where I can show off about my programming knowledeges. You'll 
 - Redis
 - Elasticsearch
 
-**Projects**
+**Projects:**
 
 - [Mangvieclam](https://mangvieclam.com/)
 - [Xehoiviet](https://xehoiviet.com/)
