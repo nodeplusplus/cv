@@ -1,124 +1,131 @@
-## Curriculum Vitae
+I am a web developer who is focusing on backend development. Always hungry to keep learning.
 
-My name is Tuan. I'm a developer. I'm a blogger, too.
-
-Why do I want to be a developer? Doing everything manually is kind of boring, so I figured out what if I can automate them. That's the reason why I became a developer.
-
-Why do I want to be a blogger? Because I want to be self-assertion. Write my experience down, help me and everyone wanting to learning not to repreat my mistakes.
-
-### PDF
-
-If you are looking for my CV on PDF format, you can find it at [[Tuan Nguyen] - Backend Developer](./%5BTuan%20Nguyen%5D%20-%20Backend%20Developer.pdf)
-
-### Personal information
+## Personal information
 
 - Name: Tuan Nguyen
 - Birthday: 1993
 - Mail: tuan.nguyen930708(at)gmail.com
 - Skype: tuan.nguyen930708(at)hotmail.com
-- Curriculum Vitae: [Curriculum Vitae](https://nodeplusplus.github.io/cv/)
-- Github: [Picosix](https://github.com/nodeplusplus)
+- Github: [nodeplusplus](https://github.com/nodeplusplus)
 - Blog: [Node++](http://blog.nodeplusplus.com/)
 - LinkedIn: [Tuan Nguyen](https://www.linkedin.com/in/tuannguyen1993/)
 
-### Mindset
+## Mindset
 
-Before do anything, I'm always think about how user use my application/code. How the application/code solve their problem, make their job more interesting and make they feel comfortable. In short, **think for user** is the key of success.
+Before do anything, I'm always think about how my user use my application. How it solves their problems, make their jobs more interesting and comfortable. In short, **think for user** is the key of successful.
 
-### Highlight
+## Highlight
 
-- 4+ experience at position `Full stack developer`
+- 4+ experience at position `Fullstack developer`
 - Databases: Elasticsearch, MongoDB, Redis
 - Backend - NodeJS
 - Frontend- ReactJS
-- GraphQL
-- Docker ([Personal hub](https://hub.docker.com/u/nodeplusplus/))
-- Write unit test (TDD)
+- K8s and Docker ([Personal hub](https://hub.docker.com/u/nodeplusplus/))
+- Test-driven development
 
-### Projects
+## Experience
 
-#### 2019
+### 2020
 
-- [Isentia.Boomerang](https://www.isentia.com/) (Isentia.Boomerang)
-
-#### 2018
-
-- [Node++](https://blog.nodeplusplus.com/)
-
-#### 2017
-
-- [Amazon Seller Toolbox](https://amzsellertoolbox.com/index.html) - Tagrem Corp
-- [Hilton - Sertahospitality](https://hilton.sertahospitality.com/index.html) - Tagrem Corp
-- [Serta](https://serta.com/) - Tagrem Corp
-
-#### 2016
-
-- [Mangvieclam](https://mangvieclam.com/) - Caribe Tech
-
-#### 2015
-
-- [Xehoiviet](https://xehoiviet.com/) - Caribe Tech
-
-### Experience
-
-#### 2359Media (April 2019 - Now)
+#### [Articulo Voice Bot](https://articulovoice.2359media.com/)
 
 **Position:** Fullstack Developer
 
-**Responsibility:** I worked for a log applications, maintained 3 dashboard buit with `ReactJS`
+**Responsibility:** I've been developing a Bot for 8 months. That bot help our clients automate low-value work so that thier staff can focus on the higher value tasks. By using powerful techniques from GCP we can add more cool features like:
 
-**Goals**
+- Interrupt Flow: Answer customer question right after they ask instead of wait for the bot finish sentence itself
+- Realtime Tracking: See how the bot anwser customer question in realtime
+- Custom Voice: Use our custom voice instead of default voice options from Amazon or Google.
 
-- Deployed microservices application using AWS platform (`Lambda`, `API Gateway`, `VPC` and `MySQL`)
+**Techniques:**
 
-**Techniques**
+- GCP platform (Firebase, Dialogflow, Compute VM, Cloud Functions, Cloud Schedule)
+- Websocket
+- Speech To Text
 
-- AWS platform
-- ReactJS
+#### [BotBot AI](https://botbot.ai/)
 
-#### Isentia.Boomerang (March 2018 - April 2019)
+**Position:** DevOps Developer
 
-**Position:** Fullstack Developer, DevOps
+**Responsibility:** I've been maintaining our CI/CD. Because our system is base on K8s, so we decided use GitOps as standard of Continous Development. Finally, most of developers can deploy their applications (both Frontend and Backend) easier by just a commit and pull request.
 
-**Responsibility:** I managed Crawler Team with 3 members. We buit a platform listen heartbeat of user on almost chanels such as: Social (Facebook, Youtube, Instagram ...), Forum, News, ...
+**Techniques:**
 
-**Goals**
-
-- Managed over 35 dedicated servers to serve databases (`Elasticsearch`, `MongoDB`, `Redis`) and applications
-- Served about 12 million requests per day, store about 50GB messages per day
-- Upgraded old platform from Node v0.12.x to v8.x
-
-**Techniques**
-
-- Elasticsearch: We have 2 cluster using hot-warn architecture (35 dedicated servers) to store almost data.
-- MongoDB
-- Redis
 - Docker
-- CI/CD tools: We used buit-in CI/CD of Gitlab.com
-- ReactJS
-- GraphQL
+- K8s
+- GitOps
 
-#### Tagrem Corp (September 2016 - March 2018)
+### 2019
+
+#### Boomerang - Social Listening
+
+**Position:** DevOps Developer
+
+**Responsibility:** I've maintained a crawler system that use more than 30 dedicated servers.
+
+The heart of our system is 10 dedicated servers that process crawl requests from a Redis Queue. In the best day, we could perform more than 20 million crawl requests to got about 12 million records from social channel such as Facebook, Youtube, Intagram, News, Forums, ...
+
+We used 2 Elasticsearch clusters to store our data so that we could perform full text search queries in our data lake easily. In our main data lake, we used [hot-warm architecture](https://www.elastic.co/blog/hot-warm-architecture) to got best performance. That data lake cost us 13 servers and stored more than 15 terabytes text.
+
+I've been a team leader of 3 junior developers. I tried to be a good leader that manage project plan, help them in hard bugs and gave them chances te practise their programming skills (design patterns, SOLID principles, algorithms)
+
+**Techniques:**
+
+- Elasticsearch, MongoDB and Redis
+- Docker + K8s
+- Gitlab CI
+
+### 2018
+
+#### [Node++](https://blog.nodeplusplus.com/)
+
+**Position:** DevOps Developer
+
+**Responsibility:** I've been writing blog for 2 years.
+
+First, there is where I practised my knowledege in AWS platform and how I can integrated it with thrid-party CI platform.
+
+Second, I can write down some interesting thing in my developer life like: hard bugs, interesting programming problem or just some practise I have been done.
+
+Finally, there is where I can show off about my programming knowledeges. You'll have some view about my skills or my mindset.
+
+**Techniques:**
+
+- AWS Platform (S3, Cloudfront, Route 53, Lambda)
+- Gitlab CI
+
+### 2017
+
+#### Tagrem Corp
 
 **Position:** Fullstack Developer
 
-**Responsibility:** I had been maintained a ecommerce and CRM platform to serve our client - Serta.com, hilton.sertahospitality.com, ...
+**Responsibility:** In Tagrem, I've been learnt to become a fullstack developer. I learnt how to maintained a large system that have more than 15 modules by implement several design patterns. In this company, I aslo got my vision in my career path - become an backend developer.
 
-**Goals**
+**Techniques:**
 
-- Followed some principles of Alige
-- Used [Jira](https://www.atlassian.com/software/jira) to work remotely
-- Helped teammates configure `webpack`(`VueJS`) base on manager's requirements. I had to make it reuseable to the next project.
-- Built components by `VueJS` (Alert, Form Validation)
-- We had been processed more than 100 email per week to help generated more than 30 issue tickets.
+- PHP
+- VueJS
 
-#### Caribe Tech (October 2015 - July 2016)
+**Projects**
 
-**Position:** Fullstack Developer
+- [Amazon Seller Toolbox](https://amzsellertoolbox.com/index.html)
+- [Hilton - Sertahospitality](https://hilton.sertahospitality.com/index.html)
+- [Serta](https://serta.com/)
 
-**Responsibility:** I maintained a marketplace platform with a small team.
+### Before 2016
 
-**Goals**
+**Position:** Backend Developer
 
-- Created schema and synced `MySQL` to `Elasticsearch`
-- Cache logged user, statistics data, ... by `Redis`
+**Responsibility:** I started my first position in Caribe Tech. In there, I tried to became a good developer and took the first look in manage Linux servers. Did many mistakes and learnt how to fixed them is my daily tasks.
+
+**Techniques:**
+
+- PHP
+- Redis
+- Elasticsearch
+
+**Projects**
+
+- [Mangvieclam](https://mangvieclam.com/)
+- [Xehoiviet](https://xehoiviet.com/)
