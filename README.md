@@ -47,7 +47,7 @@ Before do anything, I'm always think about how my users using my application. Ho
 
 **Position:** DevOps Developer
 
-**Responsibility:** I've been maintaining our CI/CD. Because our system is base on K8s, so we decided use GitOps as standard of Continous Development. Finally, most of developers can deploy their applications (both Frontend and Backend) easier by just a commit and pull request.
+**Responsibility:** I've been maintaining our CI/CD. Because our system is base on K8s, so we decided to use GitOps as standard of Continous Development. Finally, most of developers can deploy their applications (both Frontend and Backend) easier than by just a commit or pull request.
 
 **Techniques:**
 
@@ -63,11 +63,11 @@ Before do anything, I'm always think about how my users using my application. Ho
 
 **Responsibility:** I've maintained a crawler system that use more than 30 dedicated servers.
 
-The heart of our system is 10 dedicated servers that process crawl requests from a Redis Queue. In the best day, we could perform more than 20 million crawl requests to got about 12 million records from social channel such as Facebook, Youtube, Intagram, News, Forums, ...
+The heart of our system is 10 dedicated servers that process crawl requests from the Redis Queue. In the best day, we could perform more than 20 million crawl requests to got about 12 million records from social channel such as Facebook, Youtube, Intagram, News, Forums, ...
 
-We used 2 Elasticsearch clusters to store our data so that we could perform full text search queries in our data lake easily. In our main data lake, we used [hot-warm architecture](https://www.elastic.co/blog/hot-warm-architecture) to got best performance. That data lake cost us 13 servers and stored more than 15 terabytes text.
+We used 2 Elasticsearch clusters to store our data so that we could perform full text search queries in our data lake easily. In our main data lake, we used [hot-warm architecture](https://www.elastic.co/blog/hot-warm-architecture) to get best performance. That data lake costs us 13 servers and stored more than 15 terabytes text.
 
-I've been a team leader of 3 junior developers. I tried to be a good leader that manage project plan, help them in hard bugs and gave them chances te practise their programming skills (design patterns, SOLID principles, algorithms)
+I've been a team leader of 3 junior developers. I tried to be a good leader that manage project plan, helping them in hard bugs and gave them chances to practise their programming skills (design patterns, SOLID principles, algorithms)
 
 **Techniques:**
 
