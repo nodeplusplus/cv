@@ -12,7 +12,7 @@ I am a web developer who is focusing on backend development. Always hungry to ke
 
 ## Mindset
 
-Before do anything, I'm always think about how my user use my application. How it solves their problems, make their jobs more interesting and comfortable. In short, **think for user** is the key of successful.
+Before do anything, I'm always think about how my users using my application. How it solves their problems, make their jobs more interesting and comfortable. In short, **think for user** is the key of successful.
 
 ## Highlight
 
@@ -31,7 +31,7 @@ Before do anything, I'm always think about how my user use my application. How i
 
 **Position:** Fullstack Developer
 
-**Responsibility:** I've been developing a Bot for 8 months. That bot help our clients automate low-value work so that thier staff can focus on the higher value tasks. By using powerful techniques from GCP we can add more cool features like:
+**Responsibility:** I've been developing for a bot for 8 months. That bot helps our clients automate low-value work so that their staff can focus on the higher value tasks. By using powerful techniques from GCP we can add more cool features like:
 
 - Interrupt Flow: Answer customer question right after they ask instead of wait for the bot finish sentence itself
 - Realtime Tracking: See how the bot anwser customer question in realtime
