@@ -33,8 +33,8 @@ Before do anything, I'm always think about how my users using my application. Ho
 
 **Responsibility:** I've been developing for a bot for 8 months. That bot helps our clients automate low-value work so that their staffs can focus on the higher value tasks. By using powerful techniques from GCP we can add more cool features like:
 
-- Interrupt Flow: Answer customer question right after they ask instead of waiting for the bot finish sentence itself
-- Realtime Tracking: See how the bot anwser customer questions in realtime
+- Interrupt Flow: Answer customer question right after they ask instead of waiting for the bot finishes sentences itself
+- Realtime Tracking: See how the bot anwsers customer questions in realtime
 - Custom Voice: Use our custom voice instead of default voice options from Amazon or Google.
 
 **Techniques:**
