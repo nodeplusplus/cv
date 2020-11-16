@@ -55,6 +55,16 @@ Before do anything, I'm always think about how my users using my application. Ho
 - K8s
 - GitOps
 
+#### Shimadzu Application
+
+**Position:** Backend Developer
+
+**Responsibility:** By use the powerful of cloud (AWS Platform), I could reduce the time of development and increase productive easier. The result is that I developed and deployed our APIs in 3 months. And I also guaranteed quality of our codebase by reached 75% of test coverage.
+
+**Techniques:**
+
+- AWS platform: Lambda Function, API Gateway, VPC, RDS, Cognito, AWS Codecommit
+
 ### 2019
 
 #### Boomerang - Social Listening
