@@ -20,7 +20,7 @@ Before do anything, I'm always think about how my users using my application. Ho
 - Databases: Elasticsearch, MongoDB, Redis
 - Backend - NodeJS
 - Frontend- ReactJS
-- Kubernetes and Docker ([Personal hub](https://hub.docker.com/u/nodeplusplus/))
+- Kubernetes and Docker
 - Test-driven development
 
 ## Experiences
