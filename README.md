@@ -1,4 +1,6 @@
-I am a web developer who is focusing on backend development. Always hungry to keep learning.
+# Tuan Nguyen
+
+> I am a web developer who is focusing on backend development. Always hungry to keep learning.
 
 ## Personal information
 
@@ -9,10 +11,6 @@ I am a web developer who is focusing on backend development. Always hungry to ke
 - Github: [nodeplusplus](https://github.com/nodeplusplus)
 - Blog: [Node++](http://blog.nodeplusplus.com/)
 - LinkedIn: [Tuan Nguyen](https://www.linkedin.com/in/tuannguyen1993/)
-
-## Mindset
-
-Before do anything, I'm always think about how my users using my application. How it solves their problems, make their jobs more interesting and comfortable. In short, **think for user** is the key of successful.
 
 ## Highlight
 
@@ -52,7 +50,7 @@ Before do anything, I'm always think about how my users using my application. Ho
 
 **Position:** Fullstack Developer
 
-**Responsibility:** I have desgined and developed a crawler system for a social listening platform.
+**Responsibility:** I desgined and developed a crawler system for a social listening platform.
 
 - Migrated code base from NodeJS v0.11 to v8.x.x
 - Crawled about 1 milion records every single day and stored them in 2 Elasticsearch clusters.
