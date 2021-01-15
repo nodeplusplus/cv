@@ -27,22 +27,19 @@
 
 **Position:** Fullstack Developer
 
-**Responsibility:** I have developed a voice bot for 1 year. The bot helps our clients automate low-value work so that their staffs can focus on the higher value tasks. After 8 months, we delivered some cool features:
+**Responsibility:** I have developed a core of our startup - a voice bot - for a year.
 
-- Interrupt Flow: Answer customer's question right immediately instead of waiting for the bot finishes sentences itself
-- Realtime Tracking: Trace customer's flow in realtime, what intent that user was reached and what input user responsed to our bot
-- Custom Voice: Use our custom voice instead of default voice options
+For infrastructure, I configured our on-premise Kubernetes clusters uses GitOps workflow that is integrated with FluxCD and Github Actions. So, I could focus on develop our services without worry about deployment because only successful release could be delivered.
 
-**Tools:** GCP platform (Firebase, Dialogflow, Compute VM, Cloud Functions, Cloud Schedule), Websocket, Speech To Text and Text to Speech
+For coding, I used Websocket to transfer a text-base voice between PSTN's communication provider and our services. Because the conversation between bot and customer is real-time conversation, I had to optimize many things to cut down the latency between PSTN's communication provider, NLP backend and our services.
+
+**Tools:** Websocket, Google Cloud Platform, Kubernetes, FluxCD, Github Actions
 
 ### [BotBot AI](https://botbot.ai/)
 
 **Position:** DevOps Developer
 
-**Responsibility:** I have maintained a Kubernetes cluster hosted on Microsoft Azure for 6 months.
-
-- Multiple environments in one cluster. We are delivering not only production and staging but also developer's environment.
-- We use GitOps as standard of deliver features.
+**Responsibility:** I have maintained a Kubernetes cluster hosted on Microsoft Azure for 6 months. In that cluster, I built a workflow that uses GitOps with FluxCD and Github Actions to automate our releases. Furthermore, I helped the Team Leader fix security problems of that cluster by reviewed and configured RBAC to restrict access to our Kubernetes Dashboard.
 
 **Tools:** Kubernetes, FluxCD, Github Actions
 
@@ -50,10 +47,12 @@
 
 **Position:** Fullstack Developer
 
-**Responsibility:** I desgined and developed a crawler system for a social listening platform.
-
-- Migrated code base from NodeJS v0.11 to v8.x.x
-- Crawled about 1 milion records every single day and stored them in 2 Elasticsearch clusters.
-- Trained 3 fresher guys about Design Patterns, SOLID principles and Test Driven Development
+**Responsibility:** I designed and developed a crawler that crawled three millions unique records from the internet channels such as Facebook, Instagram, Youtube, Forums, News and so forth. Especially, on a high traffic day, our platform handle more than twelve millions unique records. I also lead a team of 3 junior developers and guided them how to become better developers with Design Patterns, SOLID principles and Test Driven Development.
 
 **Tools:** Elasticsearch, MongoDB, Redis, Docker, Gitlab CI
+
+### Other projects
+
+- [Personal Blog](https://blog.nodeplusplus.com/): I researched and practiced how to use AWS (Route53, S3, Cloudfront, Certificate Manager) with [Serverless](https://www.serverless.com/) to deploy my blog. I also used Gitlab CI as my continuous integration to automate the deployment process.
+
+- [Mattresses by Serta](https://www.serta.com/) at [Tagrem Corp](https://tagrem.com/index.html): I maintained a ecommerce platform that was based on Yii framwork (PHP).
