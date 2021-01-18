@@ -23,9 +23,13 @@
 
 ## Experiences
 
+In this section, I only mention which projects I was proud of. They are projects that I made many impacts as member of a team or I'm in charge of the team.
+
 ### [Articulo Voice Bot](https://articulovoice.2359media.com/)
 
-**Position:** Fullstack Developer
+**Position:** Fullstack Developer (NodeJS and ReactJS)
+
+**Duration:** Apr 2019 - Present
 
 **Responsibility:** I have developed a core of our startup - a voice bot - for a year.
 
@@ -33,11 +37,13 @@ For infrastructure, I configured our on-premise Kubernetes clusters uses GitOps 
 
 For coding, I used Websocket to transfer a text-base voice between PSTN's communication provider and our services. Because the conversation between bot and customer is real-time conversation, I had to optimize many things to cut down the latency between PSTN's communication provider, NLP backend and our services.
 
-**Tools:** Websocket, Google Cloud Platform, Kubernetes, FluxCD, Github Actions
+**Tools:** NodeJS, Websocket, Google Cloud Platform, Kubernetes, FluxCD, Github Actions
 
 ### [BotBot AI](https://botbot.ai/)
 
 **Position:** DevOps Developer
+
+**Duration:** Apr 2019 - Present
 
 **Responsibility:** I have maintained a Kubernetes cluster hosted on Microsoft Azure for 6 months. In that cluster, I built a workflow that uses GitOps with FluxCD and Github Actions to automate our releases. Furthermore, I helped the Team Leader fix security problems of that cluster by reviewed and configured RBAC to restrict access to our Kubernetes Dashboard.
 
@@ -45,13 +51,15 @@ For coding, I used Websocket to transfer a text-base voice between PSTN's commun
 
 ### [Boomerang.Isentia](https://www.isentia.com/vi/)
 
-**Position:** Fullstack Developer
+**Position:** Fullstack Developer (NodeJS)
+
+**Duration:** Mar 2018 - Apr 2019
 
 **Responsibility:** I designed and developed a crawler that crawled three millions unique records from the internet channels such as Facebook, Instagram, Youtube, Forums, News and so forth. Especially, on a high traffic day, our platform handle more than twelve millions unique records. I also lead a team of 3 junior developers and guided them how to become better developers with Design Patterns, SOLID principles and Test Driven Development.
 
-**Tools:** Elasticsearch, MongoDB, Redis, Docker, Gitlab CI
+**Tools:** NodeJS, ReactJS, Elasticsearch, MongoDB, Redis, Docker, Gitlab CI
 
-### Other projects
+### Other experiences
 
 - [Personal Blog](https://blog.nodeplusplus.com/): I researched and practiced how to use AWS (Route53, S3, Cloudfront, Certificate Manager) with [Serverless](https://www.serverless.com/) to deploy my blog. I also used Gitlab CI as my continuous integration to automate the deployment process.
 
