@@ -2,3 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 curl --form "input_files[]=@README.md" --form from=markdown --form to=pdf "http://c.docverter.com/convert" -o README.pdf
+git add README.pdf
+git commit -m "chore: update README.pdf"
