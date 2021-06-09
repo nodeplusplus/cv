@@ -1,0 +1,22 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "> I am a web developer who is focusing on backend development. Always hungry to keep learning.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeplusplus/cv.git"
+  },
+  "author": "Tuan Nguyen <tuan.nguyen@kubeplusplus.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nodeplusplus/cv/issues"
+  },
+  "homepage": "https://github.com/nodeplusplus/cv#readme",
+  "devDependencies": {
+    "husky": "^6.0.0"
+  }
+}
